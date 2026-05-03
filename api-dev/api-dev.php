@@ -26,3 +26,5 @@ define('APIDEV_VERSION', '1.0.0');
 if (file_exists(APIDEV_PATH . 'includes/class-api-dev.php')) {
     include_once APIDEV_PATH . 'includes/class-api-dev.php';
 }
+
+new APIDEV();
