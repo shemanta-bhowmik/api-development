@@ -27,4 +27,10 @@ if (file_exists(APIDEV_PATH . 'includes/class-api-dev.php')) {
     include_once APIDEV_PATH . 'includes/class-api-dev.php';
 }
 
+// inclue files 
+if (file_exists(APIDEV_PATH . 'includes/class-rest-api-cookie-demo.php')) {
+    include_once APIDEV_PATH . 'includes/class-rest-api-cookie-demo.php';
+}
+
 new APIDEV();
+new RADP_REST_API_Cookie_Demo();
